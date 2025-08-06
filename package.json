@@ -1,0 +1,23 @@
+{
+  "name": "adhash",
+  "version": "1.0.0",
+  "description": "Create Task Management project",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
